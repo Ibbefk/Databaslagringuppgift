@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Databaslagringuppgift.Tables;
 
-namespace Databaslagringuppgift.Data
+namespace Databaslagringuppgift.Tables
 {
     internal class AppDbContext : DbContext
     {
@@ -20,7 +19,7 @@ namespace Databaslagringuppgift.Data
         {
             modelBuilder.Entity<Product>()
                 .Property(p => p.Price)
-                .HasColumnType("decimal(18,2)"); 
+                .HasColumnType("decimal(18,2)");
         }
     }
 }

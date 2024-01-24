@@ -1,5 +1,4 @@
-﻿using Databaslagringuppgift.Data;
-using Databaslagringuppgift.Tables;
+﻿using Databaslagringuppgift.Tables;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
